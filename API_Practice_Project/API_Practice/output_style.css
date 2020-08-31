@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid orange;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+header #search-btn{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    outline: box;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+}
+
+header #search-btn:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 130%;
+     color: black;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     padding-top: 20px;
+     padding-bottom: 5px;
+     padding-right: 10px;
+     text-align: center;
+     line-height: 200%;
+
+}
+
+.weather-info {
+  float: left;
+  padding-left: 20%;
+  text-align: center;
+}
+
+.covid-info {
+  float:right;
+  padding-right: 20%;
+  text-align: center;
+}
+
+/*Text Formatting for Data*/
+.weather-info .date{
+  color: white;
+  font-size: 130%;
+}
+.weather-info .city{
+  color: white;
+  font-size: 130%;
+}
+.weather-info .temp{
+  color: white;
+  font-size: 130%;
+}
+.weather-info .weather{
+  color: white;
+  font-size: 130%;
+}
+.weather-info .hAndl{
+  color: white;
+  font-size: 130%;
+}
+.covid-info #countryNm{
+  color: white;
+  font-size: 130%;
+}
+.covid-info #cases{
+  color: white;
+  font-size: 130%;
+}
+.covid-info #deaths{
+  color: white;
+  font-size: 130%;
+}
+.covid-info #sRate{
+  color: white;
+  font-size: 130%;
+}
